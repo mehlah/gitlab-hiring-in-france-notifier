@@ -1,5 +1,5 @@
 class GitLab
-  COUNTRIES_NO_HIRE_URL = 'https://gitlab.com/gitlab-com/www-gitlab-com/raw/8e17aa630ba08102ef6aa4331f65fa01e119352a/data/country_no_hire.yml'
+  COUNTRIES_NO_HIRE_URL = 'https://gitlab.com/gitlab-com/www-gitlab-com/raw/master/data/country_no_hire.yml'
 
   def self.no_hire_countries
     YAML.load(Curl.get(COUNTRIES_NO_HIRE_URL).body)
