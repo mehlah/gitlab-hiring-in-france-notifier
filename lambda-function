@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+echo "Running mruby"
+./bin/mruby gitlab_hiring_in_france_notifier.rb
