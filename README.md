@@ -1,4 +1,4 @@
-# GitLab no-hire-countries watcher
+# GitLab hiring in France notifier
 
 This script reads the [countries list](https://gitlab.com/gitlab-com/www-gitlab-com/blob/8e17aa630ba08102ef6aa4331f65fa01e119352a/data/country_no_hire.yml) where GitLab can't currently hire employees and contractors,
 and will notify me by email when `France` is removed from this list.
